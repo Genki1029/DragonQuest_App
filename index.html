@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>星のドラゴンクエストアプリ</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>星のドラゴンクエスト</h1>
+            <h2>種族レコメンドアプリ</h2>
+        </header>
+        <hr>
+        <form　id="form">
+            <section id="inputs">
+                <label for="input1" class="input-items">相手種族1<span class="required">*</span>
+                    <select name="input1" id="input1" required>
+                        <option value="none">-</option>
+                        <option value="slime">スライム系</option>
+                        <option value="beast">けもの系</option>
+                        <option value="dragon">ドラゴン系</option>
+                        <option value="phantom">怪人系</option>
+                        <option value="bird">鳥系</option>
+                        <option value="zombie">ゾンビ系</option>
+                        <option value="material">物質系</option>
+                        <option value="devil">あくま系</option>
+                        <option value="machine">マシン系</option>
+                        <option value="element">エレメント系</option>
+                    </select>
+                </label>
+                <label for="input2" class="input-items">相手種族2<span class="required">*</span>
+                    <select name="input2" id="input2" required>
+                        <option value="none">-</option>
+                        <option value="slime">スライム系</option>
+                        <option value="beast">けもの系</option>
+                        <option value="dragon">ドラゴン系</option>
+                        <option value="phantom">怪人系</option>
+                        <option value="bird">鳥系</option>
+                        <option value="zombie">ゾンビ系</option>
+                        <option value="material">物質系</option>
+                        <option value="devil">あくま系</option>
+                        <option value="machine">マシン系</option>
+                        <option value="element">エレメント系</option>
+                    </select>
+                </label>
+                <label for="input3" class="input-items">相手種族3<span class="required">*</span>
+                    <select name="input3" id="input3" required>
+                        <option value="none">-</option>
+                        <option value="slime">スライム系</option>
+                        <option value="beast">けもの系</option>
+                        <option value="dragon">ドラゴン系</option>
+                        <option value="phantom">怪人系</option>
+                        <option value="bird">鳥系</option>
+                        <option value="zombie">ゾンビ系</option>
+                        <option value="material">物質系</option>
+                        <option value="devil">あくま系</option>
+                        <option value="machine">マシン系</option>
+                        <option value="element">エレメント系</option>
+                    </select>
+                </label>
+                <label for="input4" class="input-items">相手種族4<span class="required">*</span>
+                    <select name="input4" id="input4" required>
+                        <option value="none">-</option>
+                        <option value="slime">スライム系</option>
+                        <option value="beast">けもの系</option>
+                        <option value="dragon">ドラゴン系</option>
+                        <option value="phantom">怪人系</option>
+                        <option value="bird">鳥系</option>
+                        <option value="zombie">ゾンビ系</option>
+                        <option value="material">物質系</option>
+                        <option value="devil">あくま系</option>
+                        <option value="machine">マシン系</option>
+                        <option value="element">エレメント系</option>
+                    </select>
+                </label>
+            </section>
+        
+            <section id="execution">
+                <input type="submit" id="execute" value="この種族で決定！">
+                <input type="reset" id="reset" disabled>
+            </section>
+            <hr>
+            <section id="outputs">
+                <p>おすすめの種族は...</p>
+                <ul>
+                    <li id="output1">???</li>
+                    <li id="output2">???</li>
+                    <li id="output3">???</li>
+                    <li id="output4">???</li>
+                </ul>
+                <div id="output_comment"></div>
+            </section>
+        </form>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
